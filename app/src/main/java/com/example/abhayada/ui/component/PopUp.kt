@@ -42,7 +42,7 @@ fun PopUp(openAlert: Boolean, setOpenAlert: (Boolean) -> Unit){
                             )
                             Text(" area.", fontSize = 16.sp)
                         }
-                        Text("You may face Network Issues", fontSize = 16.sp, fontWeight = FontWeight.Medium, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().height(40.dp).background(Color(0x33ff0000), shape = CircleShape).wrapContentHeight(align = Alignment.CenterVertically), color = Color.Red)
+                        Text("You may face Network Issues", fontSize = 16.sp, fontWeight = FontWeight.Medium, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().height(40.dp).background(Color(0x33ff0000), shape = CircleShape).wrapContentHeight(Alignment.CenterVertically), color = Color.Red)
                     }
                 },
                 text = {
